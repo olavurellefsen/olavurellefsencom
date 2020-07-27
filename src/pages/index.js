@@ -103,7 +103,7 @@ const StyledLink = styled(Link)`
 
 const ProjectsContainer = styled.div`
   margin-top: 70vh;
-  padding: 40px 0 1600px 0;
+  padding: 40px 0;
 `
 
 export default IndexPage
