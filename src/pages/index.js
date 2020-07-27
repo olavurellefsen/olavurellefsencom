@@ -14,7 +14,7 @@ const IndexPage = () => (
           the Faroe Islands.
         </Heading>
         <Intro>
-          I strive to build businesses and institutions that strengthen the local
+          I strive to build businesses and institutions that strengthen my local
           community and make the world a better place. Connect with
           me on{" "}
           <ExternalLink href="https://twitter.com/olavur">Twitter</ExternalLink>{" "}

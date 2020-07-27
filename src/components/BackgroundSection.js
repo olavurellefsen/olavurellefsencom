@@ -28,10 +28,10 @@ const BackgroundSection = ({ className, children }) => {
           className={className}
           fluid={imageData}
           backgroundColor={`#040e18`}
-          title="gbitest"
-          id="gbitest"
+          title="Olavur Ellefsen"
+          id="olavurellefsen"
           role="img"
-          aria-label="gbitest"
+          aria-label="Olavur Ellefsen"
         >
           {children}
         </BackgroundImage>
