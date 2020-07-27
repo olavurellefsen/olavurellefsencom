@@ -57,8 +57,9 @@ const Intro = styled.div`
   font-weight: 400;
   font-size: 24px;
   @media (max-width: 1024px) {
-    font-size: 18px;
+    font-size: 16px;
     background-color: rgb(255,255,255,0.5);
+    padding: 10px;
   }
 `
 
