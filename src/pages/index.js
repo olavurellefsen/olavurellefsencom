@@ -10,7 +10,7 @@ const IndexPage = () => (
       <SEO title="Home" />
       <Container>
         <Heading>
-          Hi, I am Ólavur Ellefsen, a software engineer and entrepreneur from
+          Hi, I am Ólavur Ellefsen, a software engineer and <Highlight>entrepreneur</Highlight> from
           the Faroe Islands.
         </Heading>
         <Intro>
@@ -38,12 +38,16 @@ const Container = styled.div`
 const Heading = styled.h1`
   margin: 0;
   padding: 0 0 20px 0;
-  font-family: Nunito Sans;
+  font-family: Source Sans Pro;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   @media (max-width: 1024px) {
     font-size: 32px;
   }
+`
+
+const Highlight = styled.span`
+  color: #00a050;
 `
 
 const Intro = styled.div`
