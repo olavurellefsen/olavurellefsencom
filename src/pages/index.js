@@ -27,13 +27,13 @@ const IndexPage = () => (
           .
         </Intro>
         <ButtonContainer>
-          <StyledLink to="/#ventures">Ventures</StyledLink>
+          <StyledLink to="/#ventures">My work</StyledLink>
         </ButtonContainer>
         <ProjectsContainer id="ventures">
           <ButtonContainer>
             <StyledLink to="/#top">up</StyledLink>
           </ButtonContainer>
-          <Heading>Ventures</Heading>
+          <Heading>My work</Heading>
           <Venture />
         </ProjectsContainer>
       </Container>

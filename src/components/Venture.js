@@ -79,7 +79,7 @@ const Venture = () => (
       <VentureImage fileName="tilmelding.png" title="Tilmelding" />
       <VentureDescription>
         {" "}
-        <CompanyStyle>Tilmelding</CompanyStyle>
+        <CompanyStyle>TILMELDING</CompanyStyle>
         <br />
         Role: <RoleStyle>Principal</RoleStyle>
         <br />
