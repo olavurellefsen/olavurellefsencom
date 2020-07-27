@@ -9,11 +9,14 @@ const IndexPage = () => (
     <BackgroundSection>
       <SEO title="Home" />
       <Container>
-        <Heading>Hi, I am Ólavur Ellefsen, entrepreneur from the Faroe Islands.</Heading>
+        <Heading>
+          Hi, I am Ólavur Ellefsen, a software engineer and entrepreneur from
+          the Faroe Islands.
+        </Heading>
         <Intro>
-          I build businesses to improve and benefit the local community and the world.
-          Email me at olavur@ellefsen.fo, call me on +298 556600, or connect
-          with me on{" "}
+          I strive to build businesses and institutions that strengthen the local
+          community and make the world a better place. Connect with
+          me on{" "}
           <ExternalLink href="https://twitter.com/olavur">Twitter</ExternalLink>{" "}
           or{" "}
           <ExternalLink href="https://linkedin.com/in/olavurellefsen">
@@ -27,7 +30,7 @@ const IndexPage = () => (
 )
 
 const Container = styled.div`
-  padding: 10vh 20vw;
+  padding: 7vh 20vw;
   text-align: center;
   color: black;
 `
@@ -35,16 +38,24 @@ const Container = styled.div`
 const Heading = styled.h1`
   margin: 0;
   padding: 0 0 20px 0;
-  font-family: EB Garamond;
+  font-family: Nunito Sans;
+  font-size: 48px;
   font-weight: 700;
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
 `
 
 const Intro = styled.div`
   margin: 0;
-  padding: 10px;
-  font-family: EB Garamond;
+  padding: 0px;
+  font-family: Nunito Sans;
   font-weight: 400;
   font-size: 24px;
+  @media (max-width: 1024px) {
+    font-size: 18px;
+    background-color: rgb(255,255,255,0.5);
+  }
 `
 
 const ExternalLink = styled.a`
