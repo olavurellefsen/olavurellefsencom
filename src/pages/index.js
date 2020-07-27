@@ -1,22 +1,24 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/BackgroundSection"
+import Venture from "../components/Venture"
 
 const IndexPage = () => (
   <Layout>
-    <BackgroundSection>
+    <BackgroundSection id="top">
       <SEO title="Home" />
       <Container>
         <Heading>
-          Hi, I am Ólavur Ellefsen, a software engineer and <Highlight>entrepreneur</Highlight> from
-          the Faroe Islands.
+          Hi, I am Ólavur Ellefsen, a software engineer and{" "}
+          <Highlight>entrepreneur</Highlight> from the Faroe Islands.
         </Heading>
         <Intro>
-          I strive to build businesses and institutions that strengthen my local
-          community and make the world a better place. Connect with
-          me on{" "}
+          I strive to build businesses and institutions that strengthen the
+          Faroese community and make the world a better place. Connect with me
+          on{" "}
           <ExternalLink href="https://twitter.com/olavur">Twitter</ExternalLink>{" "}
           or{" "}
           <ExternalLink href="https://linkedin.com/in/olavurellefsen">
@@ -24,6 +26,16 @@ const IndexPage = () => (
           </ExternalLink>
           .
         </Intro>
+        <ButtonContainer>
+          <StyledLink to="/#ventures">Ventures</StyledLink>
+        </ButtonContainer>
+        <ProjectsContainer id="ventures">
+          <ButtonContainer>
+            <StyledLink to="/#top">up</StyledLink>
+          </ButtonContainer>
+          <Heading>Ventures</Heading>
+          <Venture />
+        </ProjectsContainer>
       </Container>
     </BackgroundSection>
   </Layout>
@@ -58,13 +70,40 @@ const Intro = styled.div`
   font-size: 24px;
   @media (max-width: 1024px) {
     font-size: 16px;
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255, 255, 255, 0.5);
     padding: 10px;
   }
 `
 
 const ExternalLink = styled.a`
   color: black;
+`
+
+const ButtonContainer = styled.div`
+  margin: 40px 0;
+`
+
+const StyledLink = styled(Link)`
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 40px 0;
+  background-color: transparent;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  &:focus {
+    outline: 0;
+  }
+`
+
+const ProjectsContainer = styled.div`
+  margin-top: 70vh;
+  padding: 40px 0 1600px 0;
 `
 
 export default IndexPage

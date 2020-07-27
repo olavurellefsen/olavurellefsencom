@@ -42,10 +42,13 @@ const BackgroundSection = ({ className, children }) => {
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100vw;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: repeat-y;
+  background-size: cover;
 `
 
 const StyledWrapper = styled.div`
-  height: 100vh;
   width: 100%;
   display: flex;
   place-content: start;
@@ -53,9 +56,7 @@ const StyledWrapper = styled.div`
 
 const StyledFullScreenWrapper = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
-  overflow: hidden;
 `
 
 export default StyledBackgroundSection
