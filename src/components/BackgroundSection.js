@@ -1,8 +1,8 @@
-import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
-import styled from 'styled-components'
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import styled from "styled-components"
 
-import BackgroundImage from 'gatsby-background-image'
+import BackgroundImage from "gatsby-background-image"
 
 const BackgroundSection = ({ className, children }) => {
   const { desktop } = useStaticQuery(
@@ -42,10 +42,28 @@ const BackgroundSection = ({ className, children }) => {
 
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100vw;
-  background-attachment: fixed;
-  background-position: bottom center;
-  background-repeat: repeat-y;
-  background-size: cover;
+  &:before,
+  &:after {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+  @media (hover: none) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    &:before,
+    &:after {
+      background-attachment: scroll;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
 `
 
 const StyledWrapper = styled.div`

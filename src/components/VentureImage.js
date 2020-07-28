@@ -45,6 +45,11 @@ export const StyledImage = styled(Img)`
   width: 360px;
   height: 240px;
   border-radius: 6px;
+  @media (max-width: 370px) {
+  {
+    width: 318px;
+    height: 212px;
+  }
 `
 
 export default VentureImage

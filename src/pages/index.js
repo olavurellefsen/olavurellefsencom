@@ -102,7 +102,7 @@ const StyledLink = styled(Link)`
 `
 
 const ProjectsContainer = styled.div`
-  margin-top: 70vh;
+  margin-top: 60vh;
   padding: 40px 0;
 `
 
