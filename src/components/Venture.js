@@ -11,7 +11,7 @@ const Venture = () => (
         <br />
         Role: <RoleStyle>CEO</RoleStyle>
         <br />
-        Mission: Using technology to improve the quality of life for seniors.
+        Mission: Enabling seniors to live a fulfilling life using technology.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://globetracker.com">
@@ -22,7 +22,8 @@ const Venture = () => (
         <br />
         Role: <RoleStyle>Chairman of the Board</RoleStyle>
         <br />
-        Mission: Remotely monitor and manage supply chain assets end-to-end.
+        Mission: Remotely monitor and manage supply chain assets end-to-end for
+        global logistics companies.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://setur.fo/en">
@@ -35,8 +36,8 @@ const Venture = () => (
         <CompanyStyle>UNIVERSITY OF THE FAROE ISLANDS</CompanyStyle> <br />
         Role: <RoleStyle>Chairman of the Board</RoleStyle>
         <br />
-        Mission: Providing higher education, research and public service for the
-        benefit of the Faroese society.
+        Mission: Enabling the Faroese knowledge society with higher education,
+        research and public service.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://tokni.com">
@@ -47,7 +48,8 @@ const Venture = () => (
         <br />
         Role: <RoleStyle>Founder and owner</RoleStyle>
         <br />
-        Mission: Providing quality software solutions.
+        Mission: Providing quality full stack software solutions for clients in
+        the Faroe Islands and abroad.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://klintra.com">
@@ -58,7 +60,7 @@ const Venture = () => (
         <br />
         Role: <RoleStyle>Co-founder & Chairman of the Board</RoleStyle>
         <br />
-        Mission: A cutting edge provider of customized software solutions and a
+        Mission: Providing customized software solutions and being a
         key player in shaping the digital future of the Faroe Islands.
       </VentureDescription>
     </VentureBox>
