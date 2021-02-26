@@ -4,23 +4,13 @@ import VentureImage from "./VentureImage"
 
 const Venture = () => (
   <Container>
-    <VentureBox href="https://nemlia.com">
-      <VentureImage fileName="nemlia.png" title="Nemlia" />
-      <VentureDescription>
-        <CompanyStyle>NEMLIA</CompanyStyle>
-        <br />
-        Role: <RoleStyle>CEO</RoleStyle>
-        <br />
-        Mission: Enabling seniors to live a fulfilling life using technology.
-      </VentureDescription>
-    </VentureBox>
     <VentureBox href="https://globetracker.com">
       <VentureImage fileName="globetracker.png" title="Globe Tracker" />
       <VentureDescription>
         {" "}
         <CompanyStyle>GLOBE TRACKER</CompanyStyle>
         <br />
-        Role: <RoleStyle>Chairman of the Board</RoleStyle>
+        Role: <RoleStyle>CEO</RoleStyle>
         <br />
         Mission: Remotely monitor and manage supply chain assets end-to-end for
         global logistics companies.
@@ -75,18 +65,6 @@ const Venture = () => (
         Mission: Cultivating sustainable Nordic seaweed in pristine ocean
         waters, improving people’s wellbeing and making a unique contribution to
         our blue planet.
-      </VentureDescription>
-    </VentureBox>
-    <VentureBox href="https://tilmelding.fo">
-      <VentureImage fileName="tilmelding.png" title="Tilmelding" />
-      <VentureDescription>
-        {" "}
-        <CompanyStyle>TILMELDING</CompanyStyle>
-        <br />
-        Role: <RoleStyle>Principal</RoleStyle>
-        <br />
-        Mission: Providing a complete online ticketing system for event
-        organisers.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://gaman.fo">
