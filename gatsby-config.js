@@ -30,18 +30,13 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Nunito Sans`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Source Sans Pro`,
-            variants: [`400`, `900`],
-          },
+          `Nunito Sans\:400,700`,
+          `Source Sans Pro\:400,900`,
         ],
+        display: 'swap',
       },
     },
     {
