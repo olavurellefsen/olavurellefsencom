@@ -40,9 +40,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        trackingId: "UA-173657988-1",
+        domain: `ellefsen.fo`,
       },
     },
   ],
