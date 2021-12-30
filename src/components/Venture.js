@@ -47,7 +47,7 @@ const Venture = () => (
         {" "}
         <CompanyStyle>OCEAN RAINFOREST</CompanyStyle>
         <br />
-        Role: <RoleStyle>Co-founder and Chairman of the Board</RoleStyle>
+        Role: <RoleStyle>Co-founder & Chairman of the Board</RoleStyle>
         <br />
         Mission: Improve the wellbeing of people by growing seaweed while making a unique contribution to a blue regeneration on our planet
       </VentureDescription>
