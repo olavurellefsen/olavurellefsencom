@@ -4,16 +4,15 @@ import VentureImage from "./VentureImage"
 
 const Venture = () => (
   <Container>
-    <VentureBox href="https://globetracker.com">
-      <VentureImage fileName="globetracker.png" title="Globe Tracker" />
+    <VentureBox href="https://tokni.com">
+      <VentureImage fileName="tokni.png" title="Tøkni" />
       <VentureDescription>
         {" "}
-        <CompanyStyle>GLOBE TRACKER</CompanyStyle>
+        <CompanyStyle>TØKNI</CompanyStyle>
         <br />
-        Role: <RoleStyle>CEO</RoleStyle>
+        Role: <RoleStyle>Founder and CEO</RoleStyle>
         <br />
-        Mission: Remotely monitor and manage supply chain assets end-to-end for
-        global logistics companies.
+        Mission: Creating engaging learning experiences online and in classrooms around the world.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://setur.fo/en">
@@ -28,18 +27,6 @@ const Venture = () => (
         <br />
         Mission: Enabling the Faroese knowledge society with higher education,
         research and public service.
-      </VentureDescription>
-    </VentureBox>
-    <VentureBox href="https://tokni.com">
-      <VentureImage fileName="tokni.png" title="Tøkni" />
-      <VentureDescription>
-        {" "}
-        <CompanyStyle>TØKNI</CompanyStyle>
-        <br />
-        Role: <RoleStyle>Founder and owner</RoleStyle>
-        <br />
-        Mission: Providing quality full stack software solutions for clients in
-        the Faroe Islands and abroad.
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://klintra.com">
@@ -60,11 +47,9 @@ const Venture = () => (
         {" "}
         <CompanyStyle>OCEAN RAINFOREST</CompanyStyle>
         <br />
-        Role: <RoleStyle>Co-founder and Board Member</RoleStyle>
+        Role: <RoleStyle>Co-founder and Chairman of the Board</RoleStyle>
         <br />
-        Mission: Cultivating sustainable Nordic seaweed in pristine ocean
-        waters, improving people’s wellbeing and making a unique contribution to
-        our blue planet.
+        Mission: Improve the wellbeing of people by growing seaweed while making a unique contribution to a blue regeneration on our planet
       </VentureDescription>
     </VentureBox>
     <VentureBox href="https://gaman.fo">
