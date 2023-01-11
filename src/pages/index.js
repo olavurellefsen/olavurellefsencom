@@ -17,9 +17,8 @@ const IndexPage = () => (
         </Heading>
         <Intro>
           I strive to build businesses and institutions that strengthen the
-          Faroese community and make the world a better place. Connect with me
-          on{" "}
-          <ExternalLink href="https://twitter.com/olavur">Twitter</ExternalLink>{" "}
+          Faroese community and have a positive global impact. Connect with me on{" "}
+          <ExternalLink href="https://c.im/@olavur">Mastodon</ExternalLink>{" "}
           or{" "}
           <ExternalLink href="https://linkedin.com/in/olavurellefsen">
             LinkedIn
